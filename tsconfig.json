@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2015"],
+        "target": "ES2015",
+        "strict": true,
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "outDir": "build",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./app/*"],
+            "@router": ["./Router.ts"],
+            "@models": ["./Models.ts"],
+            "@responses": ["./Responses.ts"],
+            "@interfaces": ["./Interfaces.ts"]
+        }
+    },
+    "exclude": ["frontend", "node_modules"]
+}
